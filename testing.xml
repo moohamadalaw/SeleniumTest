@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name = "MySuite">
+    <test name="LoginModule">
+        <classes>
+            <class name = "tests.ContactUITest"/>
+            <class name = "tests.RegisterUITest"/>
+            <class name = "tests.LoginUITest"/>
+
+        </classes>
+    </test>
+</suite>
+
+
+<!--<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >-->
+<!--<suite name="TestSuite" thread-count="1">-->
+<!--    <parameter name="author" value="Mohammad" />-->
+<!--    <parameter name="searchKey" value="Selenium" />-->
+
+<!--<test name="testGuru">-->
+<!--    <classes>-->
+<!--        <class name="ExampleTest"/>-->
+<!--    </classes>-->
+<!--</test>-->
+<!--</suite>-->
+
+
+
